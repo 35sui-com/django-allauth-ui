@@ -46,7 +46,7 @@ Sign in
   {% endif %}
 </form>
 {% get_providers as socialaccount_providers %}
-{% if socialaccount_providers %}
+<!-- {% if socialaccount_providers %}
 <div class="flex items-center self-stretch justify-between pt-3 mt-3">
   <hr class="w-full">
   <span class="p-2 mb-1 text-gray-400">OR</span>
@@ -58,5 +58,5 @@ Sign in
 {% include "socialaccount/snippets/provider_list.html" with process="login" %}
 {% endif %}
 
-{% include "socialaccount/snippets/login_extra.html" %}
+{% include "socialaccount/snippets/login_extra.html" %} -->
 {% endblock %}
